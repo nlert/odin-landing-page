@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.width {
+    width: 800px;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: #eee;
+    margin-top: 12px;
+    padding: 8px 16px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #1b6ae9;
+}
+
+button:active {
+    transform: rotate(180deg);
+}
+
+/* Header */
+.header {
+    background-color: #1F2937;
+    justify-content: center;
+    display: flex;
+    padding: 16px;
+    position: sticky;
+    top: 0;
+}
+
+.header .width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.logo:hover {
+    cursor: alias;
+}
+
+.links a {
+    color: #E5E7EB;
+    text-decoration: none;
+    margin-left: 3rem;
+    padding: 8px;
+}
+
+.links a:hover {
+    color: #e5e7eb9a;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+/* Head Section */
+.head {
+    background-color: #1F2937;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.head .width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    width: 50%;
+}
+
+.title h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.title p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.title button {
+    border: 0;
+    margin-top: 12px;
+}
+
+.img {
+    background-color: #ccc;
+    width: 300px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Info Section */
+.info .width {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.images {
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.image {
+    width: 150px;
+}
+
+.image p {
+    font-size: 18px;
+    color: #7c7e81;
+    font-weight: 300;
+    text-align: center;
+}
+
+.empty-img {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #1b6ae9;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dddddd;
+    font-weight: 300;
+}
+
+/* Quote Section */
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
+
+.quote .width {
+    width: 700px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.quote em {
+    display: block;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.quote strong {
+    font-size: 24px;
+    display: block;
+    text-align: right;
+}
+
+/* Sign Up Section */
+.sign-up .width {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 800px;
+    background-color: #3882F6;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    padding: 36px;
+    border-radius: 24px;
+    display: flex;
+    justify-content: space-between;
+    color: #eee;
+}
+
+.container .text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.container strong {
+    font-size: 24px;
+}
+
+.container button {
+    border: 2px solid #eee;
+}
+
+.container button:hover {
+   color: #3882F6;
+   background-color: #eee;
+}
+
+/* Footer */
+footer {
+    background-color: #1F2937;
+    color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    font-weight: 300;
+}
+
+
+
+/*      __
+     __/o \_
+woof \____  \
+         /   \
+   __   //\   \
+__/o \-//--\   \_/
+\____  ___  \  |
+     ||   \ |\ |
+    _||   _||_||
+*/
